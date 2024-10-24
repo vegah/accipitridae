@@ -37,7 +37,7 @@ jobs:
           csproj_file=Accipitridae/Accipitridae.csproj 
           xmlstarlet ed -L -u '//PackageVersion' -v "$version" "$csproj_file"
       - name: Pack
-        run: dotnet pack --no-build --configuration Release -o ./output
+        run: dotnet pack Accipitridae --no-build --configuration Release -o ./output
 
       - name: Publish to NuGet
         run: dotnet nuget push ./output/*.nupkg -k ${{ secrets.NUGET_SECRET }} -s https://api.nuget.org/v3/index.json
