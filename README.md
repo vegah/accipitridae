@@ -4,12 +4,12 @@ Hawk authentication handler for HttpClient in .NET
 ## Install
 With Nuget:
 ```
-Install-Package Fantasista.Accipitridae -Version 0.1.0
+Install-Package Fantasista.Accipitridae
 ```
 
 Or with Dotnet Core:
 ```
-dotnet add package Fantasista.Accipitridae --version 0.1.0
+dotnet add package Fantasista.Accipitridae
 ```
 
 See https://www.nuget.org/packages/Fantasista.Accipitridae/ for more information about the nuget package.  
