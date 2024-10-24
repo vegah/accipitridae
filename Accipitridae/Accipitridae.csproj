@@ -1,6 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>Fantasista.Accipitridae</PackageId>
+    <PackageVersion>0.1.0</PackageVersion>
+    <Authors>Vegard Berget</Authors>
+    <RepositoryUrl>https://github.com/vegah/accipitridae</RepositoryUrl>
+    <Description>Hawk authentication for .net</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Updated to dotnet 8</PackageReleaseNotes>
+    <Copyright>Copyright 2024 (c) Vegard Berget. All rights reserved.</Copyright>
+    <PackageTags>hawk authentication httpclient</PackageTags>
+    <PackageProjectUrl>https://github.com/vegah/accipitridae</PackageProjectUrl>
     <TargetFramework>net8.0</TargetFramework>
     <LangVersion>12</LangVersion>
   </PropertyGroup>
